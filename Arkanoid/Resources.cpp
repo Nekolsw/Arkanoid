@@ -7,6 +7,7 @@ namespace Arkanoid
 		assert(resources.ballTexture.loadFromFile(RESOURCES_PATH + "Ball.png"));
 		assert(resources.wallTexture.loadFromFile(RESOURCES_PATH + "Wall.png"));
 		assert(resources.platformTexture.loadFromFile(RESOURCES_PATH + "Platform.png"));
+		assert(resources.brickClassicTexture.loadFromFile(RESOURCES_PATH + "BrickClassic.png"));
 
 
 		//Load font

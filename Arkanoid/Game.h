@@ -4,6 +4,7 @@
 #include "SpriteObject.h"
 #include "Ball.h"
 #include "Platform.h"
+#include "Brick.h"
 #include "KeyBindings.h"
 #include "Resources.h"
 
@@ -15,9 +16,10 @@ namespace Arkanoid
 		struct GameStruct
 		{
 			GameResources resources;
-			Ball ball {sf::Color::Red};
-			Platform platform {sf::Color::Yellow};
-			SpriteObject walls {sf::Color::Yellow};
+			Ball ball = {};
+			Platform platform = {};
+			SpriteObject walls = {};
+			Brick bricks[BRICK_FOR_WIDTH][BRICK_FOR_HEIGHT] = {};
 
 		};
 	public:

@@ -7,7 +7,7 @@
 namespace Arkanoid
 {
 	struct GameResources {
-		sf::Texture ballTexture, wallTexture, platformTexture;
+		sf::Texture ballTexture, wallTexture, platformTexture, brickClassicTexture;
 	//	sf::SoundBuffer ballHit, gameOver, menuHover, menuEnter;
 		sf::Font fontText;
 	};

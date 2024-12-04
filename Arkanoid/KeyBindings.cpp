@@ -23,18 +23,18 @@ namespace Arkanoid
 			if (event.key.code == keyBinds.keyRight)
 			{
 				pressedKey = keyBinds.keyRight;
-				return Key::right;
+				return Key::Right;
 			}
 			if (event.key.code == keyBinds.keyLeft)
 			{
 				pressedKey = keyBinds.keyLeft;
-				return Key::left;
+				return Key::Left;
 			}
 		}
 		if (event.type == sf::Event::KeyReleased)
 		{
 			pressedKey = sf::Keyboard::Key::Unknown;
-			return Key::none;
+			return Key::None;
 		}
 	}
 	sf::Keyboard::Key KeyBindings::GetKeyPressed()

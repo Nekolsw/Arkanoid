@@ -37,6 +37,12 @@
     <ClCompile Include="KeyBindings.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="VectorMain.h">
@@ -67,6 +73,12 @@
       <Filter>Sources</Filter>
     </ClInclude>
     <ClInclude Include="KeyBindings.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
       <Filter>Sources</Filter>
     </ClInclude>
   </ItemGroup>

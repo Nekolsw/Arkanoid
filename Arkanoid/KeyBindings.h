@@ -26,9 +26,9 @@ namespace Arkanoid
 
 		const enum Key
 		{
-			left = 0,
-			right = 3,
-			none
+			Left = 0,
+			Right = 3,
+			None
 		};
 
 		Key PressedKey(sf::Event& event);
